@@ -67,35 +67,9 @@
         
         NSLog(@"Testing hitsArray...%@",[[hitsArray objectAtIndex:1] objectForKey:@"fields"]);
         
-        //Set up food array
-        //foodArray = [[NSMutableArray alloc]init];
-        
-        /*
-         //loop through hitsArray
-         for (int i=0; i<hitsArray.count; i++){
-         
-         //Create our food object
-         // NSString *fID = [[hitsArray objectAtIndex:i] objectForKey:@"fields"];
-         NSDictionary *fieldsDict = [[hitsArray objectAtIndex:i] objectForKey:@"fields"];
-         NSString *fID = [fieldsDict objectForKey:@"item_id"];
-         NSString *fName = [fieldsDict objectForKey:@"item_name"];
-         NSString *fBrand = [fieldsDict objectForKey:@"brand_name"];
-         NSString *fCalories = [fieldsDict objectForKey:@"nf_calories"];
-         
-         NSLog(@"FEED fID= %@", fID);
-         NSLog(@"FEED fName= %@", fName);
-         NSLog(@"FEED fBrand= %@", fBrand);
-         NSLog(@"FEED fCalories= %@", fCalories);
-         //Add the food object to our foods array
-         [foodArray addObject:[[Food alloc]initWithFoodID:fID andFoodName:fName andFoodBrand:fBrand andFoodCalories:fCalories]];
-         
-         }
-         */
-        
         NSDictionary *fieldsDict = [[hitsArray objectAtIndex:0] objectForKey:@"fields"];
         NSString *fID = [fieldsDict objectForKey:@"item_id"];
-        
-        
+  
         
         // item endpoint and get nutrition facts
         NSString *urlStrItem = [NSString stringWithFormat:@"%@?id=%@&%@&%@", itemEndpoint, fID, APPID, APPKEY];
