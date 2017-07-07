@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0ACC6D1DF8599F0054B3D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC6C1DF8599F0054B3D4 /* main.m */; };
+		EA0ACC701DF8599F0054B3D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC6F1DF8599F0054B3D4 /* AppDelegate.m */; };
+		EA0ACC781DF8599F0054B3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACC771DF8599F0054B3D4 /* Assets.xcassets */; };
+		EA0ACC7B1DF8599F0054B3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACC791DF8599F0054B3D4 /* LaunchScreen.storyboard */; };
+		EA0ACC831DF85CD30054B3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACC821DF85CD30054B3D4 /* Main.storyboard */; };
+		EA0ACC8D1DF85D3E0054B3D4 /* CountdownTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC8A1DF85D3E0054B3D4 /* CountdownTimerVC.m */; };
+		EA0ACC8E1DF85D3E0054B3D4 /* StopWatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC8C1DF85D3E0054B3D4 /* StopWatchVC.m */; };
+		EA0ACC971DF85D4C0054B3D4 /* BMICalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC901DF85D4C0054B3D4 /* BMICalculatorVC.m */; };
+		EA0ACC981DF85D4C0054B3D4 /* FatCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACC921DF85D4C0054B3D4 /* FatCalculatorVC.m */; };
+		EA0ACCAF1DF85D700054B3D4 /* FoodData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCA81DF85D700054B3D4 /* FoodData.m */; };
+		EA0ACCB01DF85D700054B3D4 /* FoodTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCAA1DF85D700054B3D4 /* FoodTableVC.m */; };
+		EA0ACCB11DF85D700054B3D4 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCAC1DF85D700054B3D4 /* FoodCell.m */; };
+		EA0ACCB21DF85D700054B3D4 /* FoodDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCAE1DF85D700054B3D4 /* FoodDetailsVC.m */; };
+		EA0ACCBF1DF85D7C0054B3D4 /* ExerciseData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCB41DF85D7C0054B3D4 /* ExerciseData.m */; };
+		EA0ACCC01DF85D7C0054B3D4 /* MusleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCB61DF85D7C0054B3D4 /* MusleTableViewCell.m */; };
+		EA0ACCC11DF85D7C0054B3D4 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCB81DF85D7C0054B3D4 /* ExerciseTableViewCell.m */; };
+		EA0ACCC21DF85D7C0054B3D4 /* MuscleGroupsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCBA1DF85D7C0054B3D4 /* MuscleGroupsTableVC.m */; };
+		EA0ACCC31DF85D7C0054B3D4 /* ExercisesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCBC1DF85D7C0054B3D4 /* ExercisesTableVC.m */; };
+		EA0ACCC41DF85D7C0054B3D4 /* ExerciseDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACCBE1DF85D7C0054B3D4 /* ExerciseDetailsVC.m */; };
+		EA0ACD2C1DF863760054B3D4 /* Biceps05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCC51DF863760054B3D4 /* Biceps05.jpg */; };
+		EA0ACD2D1DF863760054B3D4 /* Biceps06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCC61DF863760054B3D4 /* Biceps06.jpg */; };
+		EA0ACD2E1DF863760054B3D4 /* Biceps07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCC71DF863760054B3D4 /* Biceps07.jpg */; };
+		EA0ACD2F1DF863760054B3D4 /* Biceps08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCC81DF863760054B3D4 /* Biceps08.jpg */; };
+		EA0ACD301DF863760054B3D4 /* Biceps09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCC91DF863760054B3D4 /* Biceps09.jpg */; };
+		EA0ACD311DF863760054B3D4 /* Biceps10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCA1DF863760054B3D4 /* Biceps10.jpg */; };
+		EA0ACD321DF863760054B3D4 /* Calculator-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCB1DF863760054B3D4 /* Calculator-30.png */; };
+		EA0ACD331DF863760054B3D4 /* Calorie_30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCC1DF863760054B3D4 /* Calorie_30.png */; };
+		EA0ACD341DF863760054B3D4 /* calves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCD1DF863760054B3D4 /* calves.jpg */; };
+		EA0ACD351DF863760054B3D4 /* deltoids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCE1DF863760054B3D4 /* deltoids.jpg */; };
+		EA0ACD361DF863760054B3D4 /* excercise-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCCF1DF863760054B3D4 /* excercise-30.png */; };
+		EA0ACD371DF863760054B3D4 /* forearms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD01DF863760054B3D4 /* forearms.jpg */; };
+		EA0ACD381DF863760054B3D4 /* legs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD11DF863760054B3D4 /* legs.jpg */; };
+		EA0ACD391DF863760054B3D4 /* Pill-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD21DF863760054B3D4 /* Pill-30.png */; };
+		EA0ACD3A1DF863760054B3D4 /* Restaurant-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD31DF863760054B3D4 /* Restaurant-30.png */; };
+		EA0ACD3B1DF863760054B3D4 /* Timer-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD41DF863760054B3D4 /* Timer-30.png */; };
+		EA0ACD3C1DF863760054B3D4 /* triceps.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD51DF863760054B3D4 /* triceps.png */; };
+		EA0ACD3D1DF863760054B3D4 /* Abdomen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD61DF863760054B3D4 /* Abdomen.png */; };
+		EA0ACD3E1DF863760054B3D4 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD71DF863760054B3D4 /* Back.png */; };
+		EA0ACD3F1DF863760054B3D4 /* BCAA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD81DF863760054B3D4 /* BCAA.jpg */; };
+		EA0ACD401DF863760054B3D4 /* Biceps.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCD91DF863760054B3D4 /* Biceps.png */; };
+		EA0ACD411DF863760054B3D4 /* Biceps01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDA1DF863760054B3D4 /* Biceps01.jpg */; };
+		EA0ACD421DF863760054B3D4 /* Biceps02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDB1DF863760054B3D4 /* Biceps02.jpg */; };
+		EA0ACD431DF863760054B3D4 /* Biceps03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDC1DF863760054B3D4 /* Biceps03.jpg */; };
+		EA0ACD441DF863760054B3D4 /* Biceps04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDD1DF863760054B3D4 /* Biceps04.jpg */; };
+		EA0ACD451DF863760054B3D4 /* Chest.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDE1DF863760054B3D4 /* Chest.png */; };
+		EA0ACD461DF863760054B3D4 /* Creatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCDF1DF863760054B3D4 /* Creatine.jpg */; };
+		EA0ACD471DF863760054B3D4 /* Golen01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE01DF863760054B3D4 /* Golen01.jpg */; };
+		EA0ACD481DF863760054B3D4 /* Golen02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE11DF863760054B3D4 /* Golen02.jpg */; };
+		EA0ACD491DF863760054B3D4 /* Golen03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE21DF863760054B3D4 /* Golen03.jpg */; };
+		EA0ACD4A1DF863760054B3D4 /* Golen04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE31DF863760054B3D4 /* Golen04.jpg */; };
+		EA0ACD4B1DF863760054B3D4 /* Golen05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE41DF863760054B3D4 /* Golen05.jpg */; };
+		EA0ACD4C1DF863760054B3D4 /* Golen06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE51DF863760054B3D4 /* Golen06.jpg */; };
+		EA0ACD4D1DF863760054B3D4 /* Grud01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE61DF863760054B3D4 /* Grud01.jpg */; };
+		EA0ACD4E1DF863760054B3D4 /* Grud02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE71DF863760054B3D4 /* Grud02.jpg */; };
+		EA0ACD4F1DF863760054B3D4 /* Grud03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE81DF863760054B3D4 /* Grud03.jpg */; };
+		EA0ACD501DF863760054B3D4 /* Grud04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCE91DF863760054B3D4 /* Grud04.jpg */; };
+		EA0ACD511DF863760054B3D4 /* Grud05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCEA1DF863760054B3D4 /* Grud05.jpg */; };
+		EA0ACD521DF863760054B3D4 /* Grud06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCEB1DF863760054B3D4 /* Grud06.jpg */; };
+		EA0ACD531DF863760054B3D4 /* Grud07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCEC1DF863760054B3D4 /* Grud07.jpg */; };
+		EA0ACD541DF863760054B3D4 /* Grud08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCED1DF863760054B3D4 /* Grud08.jpg */; };
+		EA0ACD551DF863760054B3D4 /* Grud09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCEE1DF863760054B3D4 /* Grud09.jpg */; };
+		EA0ACD561DF863760054B3D4 /* Grud10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCEF1DF863760054B3D4 /* Grud10.jpg */; };
+		EA0ACD571DF863760054B3D4 /* Legs01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF01DF863760054B3D4 /* Legs01.jpg */; };
+		EA0ACD581DF863760054B3D4 /* Legs02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF11DF863760054B3D4 /* Legs02.jpg */; };
+		EA0ACD591DF863760054B3D4 /* Legs03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF21DF863760054B3D4 /* Legs03.jpg */; };
+		EA0ACD5A1DF863760054B3D4 /* Legs04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF31DF863760054B3D4 /* Legs04.jpg */; };
+		EA0ACD5B1DF863760054B3D4 /* Legs05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF41DF863760054B3D4 /* Legs05.jpg */; };
+		EA0ACD5C1DF863760054B3D4 /* Legs06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF51DF863760054B3D4 /* Legs06.jpg */; };
+		EA0ACD5D1DF863760054B3D4 /* Legs07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF61DF863760054B3D4 /* Legs07.jpg */; };
+		EA0ACD5E1DF863760054B3D4 /* Legs08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF71DF863760054B3D4 /* Legs08.jpg */; };
+		EA0ACD5F1DF863760054B3D4 /* Legs09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF81DF863760054B3D4 /* Legs09.jpg */; };
+		EA0ACD601DF863760054B3D4 /* Legs10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCF91DF863760054B3D4 /* Legs10.jpg */; };
+		EA0ACD611DF863760054B3D4 /* Pitanie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFA1DF863760054B3D4 /* Pitanie1.jpg */; };
+		EA0ACD621DF863760054B3D4 /* Pitanie2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFB1DF863760054B3D4 /* Pitanie2.jpg */; };
+		EA0ACD631DF863760054B3D4 /* Pitanie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFC1DF863760054B3D4 /* Pitanie3.jpg */; };
+		EA0ACD641DF863760054B3D4 /* Plechi01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFD1DF863760054B3D4 /* Plechi01.jpg */; };
+		EA0ACD651DF863760054B3D4 /* Plechi02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFE1DF863760054B3D4 /* Plechi02.jpg */; };
+		EA0ACD661DF863760054B3D4 /* Plechi03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACCFF1DF863760054B3D4 /* Plechi03.jpg */; };
+		EA0ACD671DF863760054B3D4 /* Plechi04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD001DF863760054B3D4 /* Plechi04.jpg */; };
+		EA0ACD681DF863760054B3D4 /* Plechi05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD011DF863760054B3D4 /* Plechi05.jpg */; };
+		EA0ACD691DF863760054B3D4 /* Plechi06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD021DF863760054B3D4 /* Plechi06.jpg */; };
+		EA0ACD6A1DF863760054B3D4 /* Plechi07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD031DF863760054B3D4 /* Plechi07.jpg */; };
+		EA0ACD6B1DF863760054B3D4 /* Plechi08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD041DF863760054B3D4 /* Plechi08.jpg */; };
+		EA0ACD6C1DF863760054B3D4 /* Plechi09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD051DF863760054B3D4 /* Plechi09.jpg */; };
+		EA0ACD6D1DF863760054B3D4 /* Plechi10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD061DF863760054B3D4 /* Plechi10.jpg */; };
+		EA0ACD6E1DF863760054B3D4 /* Predp01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD071DF863760054B3D4 /* Predp01.jpg */; };
+		EA0ACD6F1DF863760054B3D4 /* Predp02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD081DF863760054B3D4 /* Predp02.jpg */; };
+		EA0ACD701DF863760054B3D4 /* Predp03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD091DF863760054B3D4 /* Predp03.jpg */; };
+		EA0ACD711DF863760054B3D4 /* Predp04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0A1DF863760054B3D4 /* Predp04.jpg */; };
+		EA0ACD721DF863760054B3D4 /* Press01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0B1DF863760054B3D4 /* Press01.jpg */; };
+		EA0ACD731DF863760054B3D4 /* Press02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0C1DF863760054B3D4 /* Press02.jpg */; };
+		EA0ACD741DF863760054B3D4 /* Press03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0D1DF863760054B3D4 /* Press03.jpg */; };
+		EA0ACD751DF863760054B3D4 /* Press04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0E1DF863760054B3D4 /* Press04.jpg */; };
+		EA0ACD761DF863760054B3D4 /* Press05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD0F1DF863760054B3D4 /* Press05.jpg */; };
+		EA0ACD771DF863760054B3D4 /* Press06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD101DF863760054B3D4 /* Press06.jpg */; };
+		EA0ACD781DF863760054B3D4 /* Press07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD111DF863760054B3D4 /* Press07.jpg */; };
+		EA0ACD791DF863760054B3D4 /* Press08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD121DF863760054B3D4 /* Press08.jpg */; };
+		EA0ACD7A1DF863760054B3D4 /* Press09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD131DF863760054B3D4 /* Press09.jpg */; };
+		EA0ACD7B1DF863760054B3D4 /* Press10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD141DF863760054B3D4 /* Press10.jpg */; };
+		EA0ACD7C1DF863760054B3D4 /* Proteine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD151DF863760054B3D4 /* Proteine.jpg */; };
+		EA0ACD7D1DF863760054B3D4 /* Spina01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD161DF863760054B3D4 /* Spina01.jpg */; };
+		EA0ACD7E1DF863760054B3D4 /* Spina02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD171DF863760054B3D4 /* Spina02.jpg */; };
+		EA0ACD7F1DF863760054B3D4 /* Spina03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD181DF863760054B3D4 /* Spina03.jpg */; };
+		EA0ACD801DF863760054B3D4 /* Spina04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD191DF863760054B3D4 /* Spina04.jpg */; };
+		EA0ACD811DF863760054B3D4 /* Spina05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1A1DF863760054B3D4 /* Spina05.jpg */; };
+		EA0ACD821DF863760054B3D4 /* Spina06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1B1DF863760054B3D4 /* Spina06.jpg */; };
+		EA0ACD831DF863760054B3D4 /* Spina07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1C1DF863760054B3D4 /* Spina07.jpg */; };
+		EA0ACD841DF863760054B3D4 /* Spina08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1D1DF863760054B3D4 /* Spina08.jpg */; };
+		EA0ACD851DF863760054B3D4 /* Spina09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1E1DF863760054B3D4 /* Spina09.jpg */; };
+		EA0ACD861DF863760054B3D4 /* Spina10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD1F1DF863760054B3D4 /* Spina10.jpg */; };
+		EA0ACD871DF863760054B3D4 /* Spina11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD201DF863760054B3D4 /* Spina11.jpg */; };
+		EA0ACD881DF863760054B3D4 /* Spina12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD211DF863760054B3D4 /* Spina12.jpg */; };
+		EA0ACD891DF863760054B3D4 /* Triceps01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD221DF863760054B3D4 /* Triceps01.jpg */; };
+		EA0ACD8A1DF863760054B3D4 /* Triceps02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD231DF863760054B3D4 /* Triceps02.jpg */; };
+		EA0ACD8B1DF863760054B3D4 /* Triceps03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD241DF863760054B3D4 /* Triceps03.jpg */; };
+		EA0ACD8C1DF863760054B3D4 /* Triceps04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD251DF863760054B3D4 /* Triceps04.jpg */; };
+		EA0ACD8D1DF863760054B3D4 /* Triceps05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD261DF863760054B3D4 /* Triceps05.jpg */; };
+		EA0ACD8E1DF863760054B3D4 /* Triceps06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD271DF863760054B3D4 /* Triceps06.jpg */; };
+		EA0ACD8F1DF863760054B3D4 /* Triceps07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD281DF863760054B3D4 /* Triceps07.jpg */; };
+		EA0ACD901DF863760054B3D4 /* Triceps08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD291DF863760054B3D4 /* Triceps08.jpg */; };
+		EA0ACD911DF863760054B3D4 /* Triceps09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD2A1DF863760054B3D4 /* Triceps09.jpg */; };
+		EA0ACD921DF863760054B3D4 /* Triceps10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD2B1DF863760054B3D4 /* Triceps10.jpg */; };
+		EA0ACD951DF863D70054B3D4 /* Gainer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD931DF863D70054B3D4 /* Gainer.jpg */; };
+		EA0ACD961DF863D70054B3D4 /* Glutamine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD941DF863D70054B3D4 /* Glutamine.jpg */; };
+		EA0ACD9B1DF869CA0054B3D4 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACD981DF869CA0054B3D4 /* InputViewController.m */; };
+		EA0ACD9C1DF869CA0054B3D4 /* CalculatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0ACD9A1DF869CA0054B3D4 /* CalculatedViewController.m */; };
+		EA0ACD9E1DF87BC20054B3D4 /* fitness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0ACD9D1DF87BC20054B3D4 /* fitness.jpg */; };
+		EA5C4C9F1E09FD7B00F28D2C /* Search-30.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5C4C9E1E09FD7B00F28D2C /* Search-30.png */; };
+		EA9667671E0A8D2500323D1A /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9667661E0A8D2500323D1A /* Food.m */; };
+		EA96676D1E0D75ED00323D1A /* FoodSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96676C1E0D75ED00323D1A /* FoodSearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA0ACC681DF8599F0054B3D4 /* FitLifePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitLifePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0ACC6C1DF8599F0054B3D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0ACC6E1DF8599F0054B3D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA0ACC6F1DF8599F0054B3D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA0ACC771DF8599F0054B3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0ACC7A1DF8599F0054B3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0ACC7C1DF8599F0054B3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0ACC821DF85CD30054B3D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA0ACC891DF85D3E0054B3D4 /* CountdownTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimerVC.h; sourceTree = "<group>"; };
+		EA0ACC8A1DF85D3E0054B3D4 /* CountdownTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimerVC.m; sourceTree = "<group>"; };
+		EA0ACC8B1DF85D3E0054B3D4 /* StopWatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchVC.h; sourceTree = "<group>"; };
+		EA0ACC8C1DF85D3E0054B3D4 /* StopWatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchVC.m; sourceTree = "<group>"; };
+		EA0ACC8F1DF85D4C0054B3D4 /* BMICalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMICalculatorVC.h; sourceTree = "<group>"; };
+		EA0ACC901DF85D4C0054B3D4 /* BMICalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMICalculatorVC.m; sourceTree = "<group>"; };
+		EA0ACC911DF85D4C0054B3D4 /* FatCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatCalculatorVC.h; sourceTree = "<group>"; };
+		EA0ACC921DF85D4C0054B3D4 /* FatCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatCalculatorVC.m; sourceTree = "<group>"; };
+		EA0ACCA71DF85D700054B3D4 /* FoodData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodData.h; sourceTree = "<group>"; };
+		EA0ACCA81DF85D700054B3D4 /* FoodData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodData.m; sourceTree = "<group>"; };
+		EA0ACCA91DF85D700054B3D4 /* FoodTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableVC.h; sourceTree = "<group>"; };
+		EA0ACCAA1DF85D700054B3D4 /* FoodTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableVC.m; sourceTree = "<group>"; };
+		EA0ACCAB1DF85D700054B3D4 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		EA0ACCAC1DF85D700054B3D4 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		EA0ACCAD1DF85D700054B3D4 /* FoodDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsVC.h; sourceTree = "<group>"; };
+		EA0ACCAE1DF85D700054B3D4 /* FoodDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsVC.m; sourceTree = "<group>"; };
+		EA0ACCB31DF85D7C0054B3D4 /* ExerciseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseData.h; sourceTree = "<group>"; };
+		EA0ACCB41DF85D7C0054B3D4 /* ExerciseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseData.m; sourceTree = "<group>"; };
+		EA0ACCB51DF85D7C0054B3D4 /* MusleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusleTableViewCell.h; sourceTree = "<group>"; };
+		EA0ACCB61DF85D7C0054B3D4 /* MusleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusleTableViewCell.m; sourceTree = "<group>"; };
+		EA0ACCB71DF85D7C0054B3D4 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
+		EA0ACCB81DF85D7C0054B3D4 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
+		EA0ACCB91DF85D7C0054B3D4 /* MuscleGroupsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuscleGroupsTableVC.h; sourceTree = "<group>"; };
+		EA0ACCBA1DF85D7C0054B3D4 /* MuscleGroupsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuscleGroupsTableVC.m; sourceTree = "<group>"; };
+		EA0ACCBB1DF85D7C0054B3D4 /* ExercisesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExercisesTableVC.h; sourceTree = "<group>"; };
+		EA0ACCBC1DF85D7C0054B3D4 /* ExercisesTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExercisesTableVC.m; sourceTree = "<group>"; };
+		EA0ACCBD1DF85D7C0054B3D4 /* ExerciseDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailsVC.h; sourceTree = "<group>"; };
+		EA0ACCBE1DF85D7C0054B3D4 /* ExerciseDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailsVC.m; sourceTree = "<group>"; };
+		EA0ACCC51DF863760054B3D4 /* Biceps05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps05.jpg; sourceTree = "<group>"; };
+		EA0ACCC61DF863760054B3D4 /* Biceps06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps06.jpg; sourceTree = "<group>"; };
+		EA0ACCC71DF863760054B3D4 /* Biceps07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps07.jpg; sourceTree = "<group>"; };
+		EA0ACCC81DF863760054B3D4 /* Biceps08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps08.jpg; sourceTree = "<group>"; };
+		EA0ACCC91DF863760054B3D4 /* Biceps09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps09.jpg; sourceTree = "<group>"; };
+		EA0ACCCA1DF863760054B3D4 /* Biceps10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps10.jpg; sourceTree = "<group>"; };
+		EA0ACCCB1DF863760054B3D4 /* Calculator-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-30.png"; sourceTree = "<group>"; };
+		EA0ACCCC1DF863760054B3D4 /* Calorie_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calorie_30.png; sourceTree = "<group>"; };
+		EA0ACCCD1DF863760054B3D4 /* calves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calves.jpg; sourceTree = "<group>"; };
+		EA0ACCCE1DF863760054B3D4 /* deltoids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deltoids.jpg; sourceTree = "<group>"; };
+		EA0ACCCF1DF863760054B3D4 /* excercise-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "excercise-30.png"; sourceTree = "<group>"; };
+		EA0ACCD01DF863760054B3D4 /* forearms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forearms.jpg; sourceTree = "<group>"; };
+		EA0ACCD11DF863760054B3D4 /* legs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legs.jpg; sourceTree = "<group>"; };
+		EA0ACCD21DF863760054B3D4 /* Pill-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pill-30.png"; sourceTree = "<group>"; };
+		EA0ACCD31DF863760054B3D4 /* Restaurant-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Restaurant-30.png"; sourceTree = "<group>"; };
+		EA0ACCD41DF863760054B3D4 /* Timer-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer-30.png"; sourceTree = "<group>"; };
+		EA0ACCD51DF863760054B3D4 /* triceps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triceps.png; sourceTree = "<group>"; };
+		EA0ACCD61DF863760054B3D4 /* Abdomen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abdomen.png; sourceTree = "<group>"; };
+		EA0ACCD71DF863760054B3D4 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		EA0ACCD81DF863760054B3D4 /* BCAA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCAA.jpg; sourceTree = "<group>"; };
+		EA0ACCD91DF863760054B3D4 /* Biceps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biceps.png; sourceTree = "<group>"; };
+		EA0ACCDA1DF863760054B3D4 /* Biceps01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps01.jpg; sourceTree = "<group>"; };
+		EA0ACCDB1DF863760054B3D4 /* Biceps02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps02.jpg; sourceTree = "<group>"; };
+		EA0ACCDC1DF863760054B3D4 /* Biceps03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps03.jpg; sourceTree = "<group>"; };
+		EA0ACCDD1DF863760054B3D4 /* Biceps04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biceps04.jpg; sourceTree = "<group>"; };
+		EA0ACCDE1DF863760054B3D4 /* Chest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chest.png; sourceTree = "<group>"; };
+		EA0ACCDF1DF863760054B3D4 /* Creatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Creatine.jpg; sourceTree = "<group>"; };
+		EA0ACCE01DF863760054B3D4 /* Golen01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen01.jpg; sourceTree = "<group>"; };
+		EA0ACCE11DF863760054B3D4 /* Golen02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen02.jpg; sourceTree = "<group>"; };
+		EA0ACCE21DF863760054B3D4 /* Golen03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen03.jpg; sourceTree = "<group>"; };
+		EA0ACCE31DF863760054B3D4 /* Golen04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen04.jpg; sourceTree = "<group>"; };
+		EA0ACCE41DF863760054B3D4 /* Golen05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen05.jpg; sourceTree = "<group>"; };
+		EA0ACCE51DF863760054B3D4 /* Golen06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Golen06.jpg; sourceTree = "<group>"; };
+		EA0ACCE61DF863760054B3D4 /* Grud01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud01.jpg; sourceTree = "<group>"; };
+		EA0ACCE71DF863760054B3D4 /* Grud02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud02.jpg; sourceTree = "<group>"; };
+		EA0ACCE81DF863760054B3D4 /* Grud03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud03.jpg; sourceTree = "<group>"; };
+		EA0ACCE91DF863760054B3D4 /* Grud04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud04.jpg; sourceTree = "<group>"; };
+		EA0ACCEA1DF863760054B3D4 /* Grud05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud05.jpg; sourceTree = "<group>"; };
+		EA0ACCEB1DF863760054B3D4 /* Grud06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud06.jpg; sourceTree = "<group>"; };
+		EA0ACCEC1DF863760054B3D4 /* Grud07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud07.jpg; sourceTree = "<group>"; };
+		EA0ACCED1DF863760054B3D4 /* Grud08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud08.jpg; sourceTree = "<group>"; };
+		EA0ACCEE1DF863760054B3D4 /* Grud09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud09.jpg; sourceTree = "<group>"; };
+		EA0ACCEF1DF863760054B3D4 /* Grud10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grud10.jpg; sourceTree = "<group>"; };
+		EA0ACCF01DF863760054B3D4 /* Legs01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs01.jpg; sourceTree = "<group>"; };
+		EA0ACCF11DF863760054B3D4 /* Legs02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs02.jpg; sourceTree = "<group>"; };
+		EA0ACCF21DF863760054B3D4 /* Legs03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs03.jpg; sourceTree = "<group>"; };
+		EA0ACCF31DF863760054B3D4 /* Legs04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs04.jpg; sourceTree = "<group>"; };
+		EA0ACCF41DF863760054B3D4 /* Legs05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs05.jpg; sourceTree = "<group>"; };
+		EA0ACCF51DF863760054B3D4 /* Legs06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs06.jpg; sourceTree = "<group>"; };
+		EA0ACCF61DF863760054B3D4 /* Legs07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs07.jpg; sourceTree = "<group>"; };
+		EA0ACCF71DF863760054B3D4 /* Legs08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs08.jpg; sourceTree = "<group>"; };
+		EA0ACCF81DF863760054B3D4 /* Legs09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs09.jpg; sourceTree = "<group>"; };
+		EA0ACCF91DF863760054B3D4 /* Legs10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Legs10.jpg; sourceTree = "<group>"; };
+		EA0ACCFA1DF863760054B3D4 /* Pitanie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pitanie1.jpg; sourceTree = "<group>"; };
+		EA0ACCFB1DF863760054B3D4 /* Pitanie2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pitanie2.jpg; sourceTree = "<group>"; };
+		EA0ACCFC1DF863760054B3D4 /* Pitanie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pitanie3.jpg; sourceTree = "<group>"; };
+		EA0ACCFD1DF863760054B3D4 /* Plechi01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi01.jpg; sourceTree = "<group>"; };
+		EA0ACCFE1DF863760054B3D4 /* Plechi02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi02.jpg; sourceTree = "<group>"; };
+		EA0ACCFF1DF863760054B3D4 /* Plechi03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi03.jpg; sourceTree = "<group>"; };
+		EA0ACD001DF863760054B3D4 /* Plechi04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi04.jpg; sourceTree = "<group>"; };
+		EA0ACD011DF863760054B3D4 /* Plechi05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi05.jpg; sourceTree = "<group>"; };
+		EA0ACD021DF863760054B3D4 /* Plechi06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi06.jpg; sourceTree = "<group>"; };
+		EA0ACD031DF863760054B3D4 /* Plechi07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi07.jpg; sourceTree = "<group>"; };
+		EA0ACD041DF863760054B3D4 /* Plechi08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi08.jpg; sourceTree = "<group>"; };
+		EA0ACD051DF863760054B3D4 /* Plechi09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi09.jpg; sourceTree = "<group>"; };
+		EA0ACD061DF863760054B3D4 /* Plechi10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plechi10.jpg; sourceTree = "<group>"; };
+		EA0ACD071DF863760054B3D4 /* Predp01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Predp01.jpg; sourceTree = "<group>"; };
+		EA0ACD081DF863760054B3D4 /* Predp02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Predp02.jpg; sourceTree = "<group>"; };
+		EA0ACD091DF863760054B3D4 /* Predp03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Predp03.jpg; sourceTree = "<group>"; };
+		EA0ACD0A1DF863760054B3D4 /* Predp04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Predp04.jpg; sourceTree = "<group>"; };
+		EA0ACD0B1DF863760054B3D4 /* Press01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press01.jpg; sourceTree = "<group>"; };
+		EA0ACD0C1DF863760054B3D4 /* Press02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press02.jpg; sourceTree = "<group>"; };
+		EA0ACD0D1DF863760054B3D4 /* Press03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press03.jpg; sourceTree = "<group>"; };
+		EA0ACD0E1DF863760054B3D4 /* Press04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press04.jpg; sourceTree = "<group>"; };
+		EA0ACD0F1DF863760054B3D4 /* Press05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press05.jpg; sourceTree = "<group>"; };
+		EA0ACD101DF863760054B3D4 /* Press06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press06.jpg; sourceTree = "<group>"; };
+		EA0ACD111DF863760054B3D4 /* Press07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press07.jpg; sourceTree = "<group>"; };
+		EA0ACD121DF863760054B3D4 /* Press08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press08.jpg; sourceTree = "<group>"; };
+		EA0ACD131DF863760054B3D4 /* Press09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press09.jpg; sourceTree = "<group>"; };
+		EA0ACD141DF863760054B3D4 /* Press10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Press10.jpg; sourceTree = "<group>"; };
+		EA0ACD151DF863760054B3D4 /* Proteine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Proteine.jpg; sourceTree = "<group>"; };
+		EA0ACD161DF863760054B3D4 /* Spina01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina01.jpg; sourceTree = "<group>"; };
+		EA0ACD171DF863760054B3D4 /* Spina02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina02.jpg; sourceTree = "<group>"; };
+		EA0ACD181DF863760054B3D4 /* Spina03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina03.jpg; sourceTree = "<group>"; };
+		EA0ACD191DF863760054B3D4 /* Spina04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina04.jpg; sourceTree = "<group>"; };
+		EA0ACD1A1DF863760054B3D4 /* Spina05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina05.jpg; sourceTree = "<group>"; };
+		EA0ACD1B1DF863760054B3D4 /* Spina06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina06.jpg; sourceTree = "<group>"; };
+		EA0ACD1C1DF863760054B3D4 /* Spina07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina07.jpg; sourceTree = "<group>"; };
+		EA0ACD1D1DF863760054B3D4 /* Spina08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina08.jpg; sourceTree = "<group>"; };
+		EA0ACD1E1DF863760054B3D4 /* Spina09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina09.jpg; sourceTree = "<group>"; };
+		EA0ACD1F1DF863760054B3D4 /* Spina10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina10.jpg; sourceTree = "<group>"; };
+		EA0ACD201DF863760054B3D4 /* Spina11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina11.jpg; sourceTree = "<group>"; };
+		EA0ACD211DF863760054B3D4 /* Spina12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spina12.jpg; sourceTree = "<group>"; };
+		EA0ACD221DF863760054B3D4 /* Triceps01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps01.jpg; sourceTree = "<group>"; };
+		EA0ACD231DF863760054B3D4 /* Triceps02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps02.jpg; sourceTree = "<group>"; };
+		EA0ACD241DF863760054B3D4 /* Triceps03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps03.jpg; sourceTree = "<group>"; };
+		EA0ACD251DF863760054B3D4 /* Triceps04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps04.jpg; sourceTree = "<group>"; };
+		EA0ACD261DF863760054B3D4 /* Triceps05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps05.jpg; sourceTree = "<group>"; };
+		EA0ACD271DF863760054B3D4 /* Triceps06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps06.jpg; sourceTree = "<group>"; };
+		EA0ACD281DF863760054B3D4 /* Triceps07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps07.jpg; sourceTree = "<group>"; };
+		EA0ACD291DF863760054B3D4 /* Triceps08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps08.jpg; sourceTree = "<group>"; };
+		EA0ACD2A1DF863760054B3D4 /* Triceps09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps09.jpg; sourceTree = "<group>"; };
+		EA0ACD2B1DF863760054B3D4 /* Triceps10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceps10.jpg; sourceTree = "<group>"; };
+		EA0ACD931DF863D70054B3D4 /* Gainer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gainer.jpg; sourceTree = "<group>"; };
+		EA0ACD941DF863D70054B3D4 /* Glutamine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glutamine.jpg; sourceTree = "<group>"; };
+		EA0ACD971DF869CA0054B3D4 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		EA0ACD981DF869CA0054B3D4 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		EA0ACD991DF869CA0054B3D4 /* CalculatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatedViewController.h; sourceTree = "<group>"; };
+		EA0ACD9A1DF869CA0054B3D4 /* CalculatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatedViewController.m; sourceTree = "<group>"; };
+		EA0ACD9D1DF87BC20054B3D4 /* fitness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fitness.jpg; sourceTree = "<group>"; };
+		EA5C4C9E1E09FD7B00F28D2C /* Search-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-30.png"; sourceTree = "<group>"; };
+		EA9667651E0A8D2500323D1A /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		EA9667661E0A8D2500323D1A /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		EA96676B1E0D75ED00323D1A /* FoodSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSearchViewController.h; sourceTree = "<group>"; };
+		EA96676C1E0D75ED00323D1A /* FoodSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodSearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0ACC651DF8599F0054B3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0ACC5F1DF8599F0054B3D4 = {
+			isa = PBXGroup;
+			children = (
+				EA0ACC6A1DF8599F0054B3D4 /* FitLifePal */,
+				EA0ACC691DF8599F0054B3D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0ACC691DF8599F0054B3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0ACC681DF8599F0054B3D4 /* FitLifePal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0ACC6A1DF8599F0054B3D4 /* FitLifePal */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C4CA01E09FE0700F28D2C /* Nutrition Lookup */,
+				EA0ACC881DF85D2E0054B3D4 /* Excercises */,
+				EA0ACC871DF85D260054B3D4 /* Food */,
+				EA0ACC851DF85D040054B3D4 /* Calculations */,
+				EA0ACC841DF85CF70054B3D4 /* Timer */,
+				EA0ACC6E1DF8599F0054B3D4 /* AppDelegate.h */,
+				EA0ACC6F1DF8599F0054B3D4 /* AppDelegate.m */,
+				EA0ACC821DF85CD30054B3D4 /* Main.storyboard */,
+				EA0ACC771DF8599F0054B3D4 /* Assets.xcassets */,
+				EA0ACC791DF8599F0054B3D4 /* LaunchScreen.storyboard */,
+				EA0ACC7C1DF8599F0054B3D4 /* Info.plist */,
+				EA0ACC6B1DF8599F0054B3D4 /* Supporting Files */,
+			);
+			path = FitLifePal;
+			sourceTree = "<group>";
+		};
+		EA0ACC6B1DF8599F0054B3D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C4C9E1E09FD7B00F28D2C /* Search-30.png */,
+				EA0ACD9D1DF87BC20054B3D4 /* fitness.jpg */,
+				EA0ACD931DF863D70054B3D4 /* Gainer.jpg */,
+				EA0ACD941DF863D70054B3D4 /* Glutamine.jpg */,
+				EA0ACCC51DF863760054B3D4 /* Biceps05.jpg */,
+				EA0ACCC61DF863760054B3D4 /* Biceps06.jpg */,
+				EA0ACCC71DF863760054B3D4 /* Biceps07.jpg */,
+				EA0ACCC81DF863760054B3D4 /* Biceps08.jpg */,
+				EA0ACCC91DF863760054B3D4 /* Biceps09.jpg */,
+				EA0ACCCA1DF863760054B3D4 /* Biceps10.jpg */,
+				EA0ACCCB1DF863760054B3D4 /* Calculator-30.png */,
+				EA0ACCCC1DF863760054B3D4 /* Calorie_30.png */,
+				EA0ACCCD1DF863760054B3D4 /* calves.jpg */,
+				EA0ACCCE1DF863760054B3D4 /* deltoids.jpg */,
+				EA0ACCCF1DF863760054B3D4 /* excercise-30.png */,
+				EA0ACCD01DF863760054B3D4 /* forearms.jpg */,
+				EA0ACCD11DF863760054B3D4 /* legs.jpg */,
+				EA0ACCD21DF863760054B3D4 /* Pill-30.png */,
+				EA0ACCD31DF863760054B3D4 /* Restaurant-30.png */,
+				EA0ACCD41DF863760054B3D4 /* Timer-30.png */,
+				EA0ACCD51DF863760054B3D4 /* triceps.png */,
+				EA0ACCD61DF863760054B3D4 /* Abdomen.png */,
+				EA0ACCD71DF863760054B3D4 /* Back.png */,
+				EA0ACCD81DF863760054B3D4 /* BCAA.jpg */,
+				EA0ACCD91DF863760054B3D4 /* Biceps.png */,
+				EA0ACCDA1DF863760054B3D4 /* Biceps01.jpg */,
+				EA0ACCDB1DF863760054B3D4 /* Biceps02.jpg */,
+				EA0ACCDC1DF863760054B3D4 /* Biceps03.jpg */,
+				EA0ACCDD1DF863760054B3D4 /* Biceps04.jpg */,
+				EA0ACCDE1DF863760054B3D4 /* Chest.png */,
+				EA0ACCDF1DF863760054B3D4 /* Creatine.jpg */,
+				EA0ACCE01DF863760054B3D4 /* Golen01.jpg */,
+				EA0ACCE11DF863760054B3D4 /* Golen02.jpg */,
+				EA0ACCE21DF863760054B3D4 /* Golen03.jpg */,
+				EA0ACCE31DF863760054B3D4 /* Golen04.jpg */,
+				EA0ACCE41DF863760054B3D4 /* Golen05.jpg */,
+				EA0ACCE51DF863760054B3D4 /* Golen06.jpg */,
+				EA0ACCE61DF863760054B3D4 /* Grud01.jpg */,
+				EA0ACCE71DF863760054B3D4 /* Grud02.jpg */,
+				EA0ACCE81DF863760054B3D4 /* Grud03.jpg */,
+				EA0ACCE91DF863760054B3D4 /* Grud04.jpg */,
+				EA0ACCEA1DF863760054B3D4 /* Grud05.jpg */,
+				EA0ACCEB1DF863760054B3D4 /* Grud06.jpg */,
+				EA0ACCEC1DF863760054B3D4 /* Grud07.jpg */,
+				EA0ACCED1DF863760054B3D4 /* Grud08.jpg */,
+				EA0ACCEE1DF863760054B3D4 /* Grud09.jpg */,
+				EA0ACCEF1DF863760054B3D4 /* Grud10.jpg */,
+				EA0ACCF01DF863760054B3D4 /* Legs01.jpg */,
+				EA0ACCF11DF863760054B3D4 /* Legs02.jpg */,
+				EA0ACCF21DF863760054B3D4 /* Legs03.jpg */,
+				EA0ACCF31DF863760054B3D4 /* Legs04.jpg */,
+				EA0ACCF41DF863760054B3D4 /* Legs05.jpg */,
+				EA0ACCF51DF863760054B3D4 /* Legs06.jpg */,
+				EA0ACCF61DF863760054B3D4 /* Legs07.jpg */,
+				EA0ACCF71DF863760054B3D4 /* Legs08.jpg */,
+				EA0ACCF81DF863760054B3D4 /* Legs09.jpg */,
+				EA0ACCF91DF863760054B3D4 /* Legs10.jpg */,
+				EA0ACCFA1DF863760054B3D4 /* Pitanie1.jpg */,
+				EA0ACCFB1DF863760054B3D4 /* Pitanie2.jpg */,
+				EA0ACCFC1DF863760054B3D4 /* Pitanie3.jpg */,
+				EA0ACCFD1DF863760054B3D4 /* Plechi01.jpg */,
+				EA0ACCFE1DF863760054B3D4 /* Plechi02.jpg */,
+				EA0ACCFF1DF863760054B3D4 /* Plechi03.jpg */,
+				EA0ACD001DF863760054B3D4 /* Plechi04.jpg */,
+				EA0ACD011DF863760054B3D4 /* Plechi05.jpg */,
+				EA0ACD021DF863760054B3D4 /* Plechi06.jpg */,
+				EA0ACD031DF863760054B3D4 /* Plechi07.jpg */,
+				EA0ACD041DF863760054B3D4 /* Plechi08.jpg */,
+				EA0ACD051DF863760054B3D4 /* Plechi09.jpg */,
+				EA0ACD061DF863760054B3D4 /* Plechi10.jpg */,
+				EA0ACD071DF863760054B3D4 /* Predp01.jpg */,
+				EA0ACD081DF863760054B3D4 /* Predp02.jpg */,
+				EA0ACD091DF863760054B3D4 /* Predp03.jpg */,
+				EA0ACD0A1DF863760054B3D4 /* Predp04.jpg */,
+				EA0ACD0B1DF863760054B3D4 /* Press01.jpg */,
+				EA0ACD0C1DF863760054B3D4 /* Press02.jpg */,
+				EA0ACD0D1DF863760054B3D4 /* Press03.jpg */,
+				EA0ACD0E1DF863760054B3D4 /* Press04.jpg */,
+				EA0ACD0F1DF863760054B3D4 /* Press05.jpg */,
+				EA0ACD101DF863760054B3D4 /* Press06.jpg */,
+				EA0ACD111DF863760054B3D4 /* Press07.jpg */,
+				EA0ACD121DF863760054B3D4 /* Press08.jpg */,
+				EA0ACD131DF863760054B3D4 /* Press09.jpg */,
+				EA0ACD141DF863760054B3D4 /* Press10.jpg */,
+				EA0ACD151DF863760054B3D4 /* Proteine.jpg */,
+				EA0ACD161DF863760054B3D4 /* Spina01.jpg */,
+				EA0ACD171DF863760054B3D4 /* Spina02.jpg */,
+				EA0ACD181DF863760054B3D4 /* Spina03.jpg */,
+				EA0ACD191DF863760054B3D4 /* Spina04.jpg */,
+				EA0ACD1A1DF863760054B3D4 /* Spina05.jpg */,
+				EA0ACD1B1DF863760054B3D4 /* Spina06.jpg */,
+				EA0ACD1C1DF863760054B3D4 /* Spina07.jpg */,
+				EA0ACD1D1DF863760054B3D4 /* Spina08.jpg */,
+				EA0ACD1E1DF863760054B3D4 /* Spina09.jpg */,
+				EA0ACD1F1DF863760054B3D4 /* Spina10.jpg */,
+				EA0ACD201DF863760054B3D4 /* Spina11.jpg */,
+				EA0ACD211DF863760054B3D4 /* Spina12.jpg */,
+				EA0ACD221DF863760054B3D4 /* Triceps01.jpg */,
+				EA0ACD231DF863760054B3D4 /* Triceps02.jpg */,
+				EA0ACD241DF863760054B3D4 /* Triceps03.jpg */,
+				EA0ACD251DF863760054B3D4 /* Triceps04.jpg */,
+				EA0ACD261DF863760054B3D4 /* Triceps05.jpg */,
+				EA0ACD271DF863760054B3D4 /* Triceps06.jpg */,
+				EA0ACD281DF863760054B3D4 /* Triceps07.jpg */,
+				EA0ACD291DF863760054B3D4 /* Triceps08.jpg */,
+				EA0ACD2A1DF863760054B3D4 /* Triceps09.jpg */,
+				EA0ACD2B1DF863760054B3D4 /* Triceps10.jpg */,
+				EA0ACC6C1DF8599F0054B3D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0ACC841DF85CF70054B3D4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				EA0ACC891DF85D3E0054B3D4 /* CountdownTimerVC.h */,
+				EA0ACC8A1DF85D3E0054B3D4 /* CountdownTimerVC.m */,
+				EA0ACC8B1DF85D3E0054B3D4 /* StopWatchVC.h */,
+				EA0ACC8C1DF85D3E0054B3D4 /* StopWatchVC.m */,
+			);
+			name = Timer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA0ACC851DF85D040054B3D4 /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				EA0ACC8F1DF85D4C0054B3D4 /* BMICalculatorVC.h */,
+				EA0ACC901DF85D4C0054B3D4 /* BMICalculatorVC.m */,
+				EA0ACC911DF85D4C0054B3D4 /* FatCalculatorVC.h */,
+				EA0ACC921DF85D4C0054B3D4 /* FatCalculatorVC.m */,
+				EA0ACD971DF869CA0054B3D4 /* InputViewController.h */,
+				EA0ACD981DF869CA0054B3D4 /* InputViewController.m */,
+				EA0ACD991DF869CA0054B3D4 /* CalculatedViewController.h */,
+				EA0ACD9A1DF869CA0054B3D4 /* CalculatedViewController.m */,
+			);
+			name = Calculations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA0ACC871DF85D260054B3D4 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				EA0ACCA71DF85D700054B3D4 /* FoodData.h */,
+				EA0ACCA81DF85D700054B3D4 /* FoodData.m */,
+				EA0ACCA91DF85D700054B3D4 /* FoodTableVC.h */,
+				EA0ACCAA1DF85D700054B3D4 /* FoodTableVC.m */,
+				EA0ACCAB1DF85D700054B3D4 /* FoodCell.h */,
+				EA0ACCAC1DF85D700054B3D4 /* FoodCell.m */,
+				EA0ACCAD1DF85D700054B3D4 /* FoodDetailsVC.h */,
+				EA0ACCAE1DF85D700054B3D4 /* FoodDetailsVC.m */,
+			);
+			name = Food;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA0ACC881DF85D2E0054B3D4 /* Excercises */ = {
+			isa = PBXGroup;
+			children = (
+				EA0ACCB31DF85D7C0054B3D4 /* ExerciseData.h */,
+				EA0ACCB41DF85D7C0054B3D4 /* ExerciseData.m */,
+				EA0ACCB51DF85D7C0054B3D4 /* MusleTableViewCell.h */,
+				EA0ACCB61DF85D7C0054B3D4 /* MusleTableViewCell.m */,
+				EA0ACCB71DF85D7C0054B3D4 /* ExerciseTableViewCell.h */,
+				EA0ACCB81DF85D7C0054B3D4 /* ExerciseTableViewCell.m */,
+				EA0ACCB91DF85D7C0054B3D4 /* MuscleGroupsTableVC.h */,
+				EA0ACCBA1DF85D7C0054B3D4 /* MuscleGroupsTableVC.m */,
+				EA0ACCBB1DF85D7C0054B3D4 /* ExercisesTableVC.h */,
+				EA0ACCBC1DF85D7C0054B3D4 /* ExercisesTableVC.m */,
+				EA0ACCBD1DF85D7C0054B3D4 /* ExerciseDetailsVC.h */,
+				EA0ACCBE1DF85D7C0054B3D4 /* ExerciseDetailsVC.m */,
+			);
+			name = Excercises;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA5C4CA01E09FE0700F28D2C /* Nutrition Lookup */ = {
+			isa = PBXGroup;
+			children = (
+				EA9667651E0A8D2500323D1A /* Food.h */,
+				EA9667661E0A8D2500323D1A /* Food.m */,
+				EA96676B1E0D75ED00323D1A /* FoodSearchViewController.h */,
+				EA96676C1E0D75ED00323D1A /* FoodSearchViewController.m */,
+			);
+			name = "Nutrition Lookup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0ACC671DF8599F0054B3D4 /* FitLifePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0ACC7F1DF8599F0054B3D4 /* Build configuration list for PBXNativeTarget "FitLifePal" */;
+			buildPhases = (
+				EA0ACC641DF8599F0054B3D4 /* Sources */,
+				EA0ACC651DF8599F0054B3D4 /* Frameworks */,
+				EA0ACC661DF8599F0054B3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitLifePal;
+			productName = FitLifePal;
+			productReference = EA0ACC681DF8599F0054B3D4 /* FitLifePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0ACC601DF8599F0054B3D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Keun You";
+				TargetAttributes = {
+					EA0ACC671DF8599F0054B3D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EA0ACC631DF8599F0054B3D4 /* Build configuration list for PBXProject "FitLifePal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0ACC5F1DF8599F0054B3D4;
+			productRefGroup = EA0ACC691DF8599F0054B3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0ACC671DF8599F0054B3D4 /* FitLifePal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0ACC661DF8599F0054B3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0ACD951DF863D70054B3D4 /* Gainer.jpg in Resources */,
+				EA0ACD631DF863760054B3D4 /* Pitanie3.jpg in Resources */,
+				EA0ACD3B1DF863760054B3D4 /* Timer-30.png in Resources */,
+				EA0ACD671DF863760054B3D4 /* Plechi04.jpg in Resources */,
+				EA0ACC7B1DF8599F0054B3D4 /* LaunchScreen.storyboard in Resources */,
+				EA0ACD7A1DF863760054B3D4 /* Press09.jpg in Resources */,
+				EA0ACD961DF863D70054B3D4 /* Glutamine.jpg in Resources */,
+				EA0ACC781DF8599F0054B3D4 /* Assets.xcassets in Resources */,
+				EA0ACD861DF863760054B3D4 /* Spina10.jpg in Resources */,
+				EA0ACD421DF863760054B3D4 /* Biceps02.jpg in Resources */,
+				EA0ACD5D1DF863760054B3D4 /* Legs07.jpg in Resources */,
+				EA0ACD651DF863760054B3D4 /* Plechi02.jpg in Resources */,
+				EA0ACD601DF863760054B3D4 /* Legs10.jpg in Resources */,
+				EA0ACD7F1DF863760054B3D4 /* Spina03.jpg in Resources */,
+				EA0ACD401DF863760054B3D4 /* Biceps.png in Resources */,
+				EA0ACD3F1DF863760054B3D4 /* BCAA.jpg in Resources */,
+				EA0ACD4D1DF863760054B3D4 /* Grud01.jpg in Resources */,
+				EA0ACD501DF863760054B3D4 /* Grud04.jpg in Resources */,
+				EA0ACD4F1DF863760054B3D4 /* Grud03.jpg in Resources */,
+				EA0ACD921DF863760054B3D4 /* Triceps10.jpg in Resources */,
+				EA0ACD381DF863760054B3D4 /* legs.jpg in Resources */,
+				EA0ACD831DF863760054B3D4 /* Spina07.jpg in Resources */,
+				EA0ACD711DF863760054B3D4 /* Predp04.jpg in Resources */,
+				EA0ACD5A1DF863760054B3D4 /* Legs04.jpg in Resources */,
+				EA0ACD9E1DF87BC20054B3D4 /* fitness.jpg in Resources */,
+				EA0ACD701DF863760054B3D4 /* Predp03.jpg in Resources */,
+				EA0ACD6B1DF863760054B3D4 /* Plechi08.jpg in Resources */,
+				EA0ACD531DF863760054B3D4 /* Grud07.jpg in Resources */,
+				EA0ACD731DF863760054B3D4 /* Press02.jpg in Resources */,
+				EA0ACD811DF863760054B3D4 /* Spina05.jpg in Resources */,
+				EA0ACD841DF863760054B3D4 /* Spina08.jpg in Resources */,
+				EA0ACD3C1DF863760054B3D4 /* triceps.png in Resources */,
+				EA0ACD571DF863760054B3D4 /* Legs01.jpg in Resources */,
+				EA0ACD851DF863760054B3D4 /* Spina09.jpg in Resources */,
+				EA0ACD6F1DF863760054B3D4 /* Predp02.jpg in Resources */,
+				EA0ACD8F1DF863760054B3D4 /* Triceps07.jpg in Resources */,
+				EA0ACD321DF863760054B3D4 /* Calculator-30.png in Resources */,
+				EA0ACD4C1DF863760054B3D4 /* Golen06.jpg in Resources */,
+				EA0ACD521DF863760054B3D4 /* Grud06.jpg in Resources */,
+				EA0ACD4E1DF863760054B3D4 /* Grud02.jpg in Resources */,
+				EA0ACD5C1DF863760054B3D4 /* Legs06.jpg in Resources */,
+				EA0ACD5F1DF863760054B3D4 /* Legs09.jpg in Resources */,
+				EA0ACD781DF863760054B3D4 /* Press07.jpg in Resources */,
+				EA0ACD741DF863760054B3D4 /* Press03.jpg in Resources */,
+				EA0ACD791DF863760054B3D4 /* Press08.jpg in Resources */,
+				EA0ACD311DF863760054B3D4 /* Biceps10.jpg in Resources */,
+				EA0ACD721DF863760054B3D4 /* Press01.jpg in Resources */,
+				EA0ACD8E1DF863760054B3D4 /* Triceps06.jpg in Resources */,
+				EA0ACD411DF863760054B3D4 /* Biceps01.jpg in Resources */,
+				EA0ACD431DF863760054B3D4 /* Biceps03.jpg in Resources */,
+				EA0ACD751DF863760054B3D4 /* Press04.jpg in Resources */,
+				EA0ACD8B1DF863760054B3D4 /* Triceps03.jpg in Resources */,
+				EA0ACD331DF863760054B3D4 /* Calorie_30.png in Resources */,
+				EA0ACD371DF863760054B3D4 /* forearms.jpg in Resources */,
+				EA0ACD581DF863760054B3D4 /* Legs02.jpg in Resources */,
+				EA0ACD6D1DF863760054B3D4 /* Plechi10.jpg in Resources */,
+				EA5C4C9F1E09FD7B00F28D2C /* Search-30.png in Resources */,
+				EA0ACD301DF863760054B3D4 /* Biceps09.jpg in Resources */,
+				EA0ACD891DF863760054B3D4 /* Triceps01.jpg in Resources */,
+				EA0ACD901DF863760054B3D4 /* Triceps08.jpg in Resources */,
+				EA0ACD6C1DF863760054B3D4 /* Plechi09.jpg in Resources */,
+				EA0ACD771DF863760054B3D4 /* Press06.jpg in Resources */,
+				EA0ACD561DF863760054B3D4 /* Grud10.jpg in Resources */,
+				EA0ACD821DF863760054B3D4 /* Spina06.jpg in Resources */,
+				EA0ACD551DF863760054B3D4 /* Grud09.jpg in Resources */,
+				EA0ACD621DF863760054B3D4 /* Pitanie2.jpg in Resources */,
+				EA0ACD7E1DF863760054B3D4 /* Spina02.jpg in Resources */,
+				EA0ACD351DF863760054B3D4 /* deltoids.jpg in Resources */,
+				EA0ACD511DF863760054B3D4 /* Grud05.jpg in Resources */,
+				EA0ACD6E1DF863760054B3D4 /* Predp01.jpg in Resources */,
+				EA0ACD3A1DF863760054B3D4 /* Restaurant-30.png in Resources */,
+				EA0ACD481DF863760054B3D4 /* Golen02.jpg in Resources */,
+				EA0ACD871DF863760054B3D4 /* Spina11.jpg in Resources */,
+				EA0ACD7D1DF863760054B3D4 /* Spina01.jpg in Resources */,
+				EA0ACD761DF863760054B3D4 /* Press05.jpg in Resources */,
+				EA0ACD2F1DF863760054B3D4 /* Biceps08.jpg in Resources */,
+				EA0ACD461DF863760054B3D4 /* Creatine.jpg in Resources */,
+				EA0ACD2E1DF863760054B3D4 /* Biceps07.jpg in Resources */,
+				EA0ACD2C1DF863760054B3D4 /* Biceps05.jpg in Resources */,
+				EA0ACD691DF863760054B3D4 /* Plechi06.jpg in Resources */,
+				EA0ACD611DF863760054B3D4 /* Pitanie1.jpg in Resources */,
+				EA0ACD471DF863760054B3D4 /* Golen01.jpg in Resources */,
+				EA0ACD591DF863760054B3D4 /* Legs03.jpg in Resources */,
+				EA0ACD5B1DF863760054B3D4 /* Legs05.jpg in Resources */,
+				EA0ACD541DF863760054B3D4 /* Grud08.jpg in Resources */,
+				EA0ACD661DF863760054B3D4 /* Plechi03.jpg in Resources */,
+				EA0ACC831DF85CD30054B3D4 /* Main.storyboard in Resources */,
+				EA0ACD491DF863760054B3D4 /* Golen03.jpg in Resources */,
+				EA0ACD451DF863760054B3D4 /* Chest.png in Resources */,
+				EA0ACD6A1DF863760054B3D4 /* Plechi07.jpg in Resources */,
+				EA0ACD801DF863760054B3D4 /* Spina04.jpg in Resources */,
+				EA0ACD2D1DF863760054B3D4 /* Biceps06.jpg in Resources */,
+				EA0ACD681DF863760054B3D4 /* Plechi05.jpg in Resources */,
+				EA0ACD7B1DF863760054B3D4 /* Press10.jpg in Resources */,
+				EA0ACD8C1DF863760054B3D4 /* Triceps04.jpg in Resources */,
+				EA0ACD4A1DF863760054B3D4 /* Golen04.jpg in Resources */,
+				EA0ACD3D1DF863760054B3D4 /* Abdomen.png in Resources */,
+				EA0ACD361DF863760054B3D4 /* excercise-30.png in Resources */,
+				EA0ACD641DF863760054B3D4 /* Plechi01.jpg in Resources */,
+				EA0ACD881DF863760054B3D4 /* Spina12.jpg in Resources */,
+				EA0ACD341DF863760054B3D4 /* calves.jpg in Resources */,
+				EA0ACD911DF863760054B3D4 /* Triceps09.jpg in Resources */,
+				EA0ACD8D1DF863760054B3D4 /* Triceps05.jpg in Resources */,
+				EA0ACD441DF863760054B3D4 /* Biceps04.jpg in Resources */,
+				EA0ACD4B1DF863760054B3D4 /* Golen05.jpg in Resources */,
+				EA0ACD3E1DF863760054B3D4 /* Back.png in Resources */,
+				EA0ACD7C1DF863760054B3D4 /* Proteine.jpg in Resources */,
+				EA0ACD5E1DF863760054B3D4 /* Legs08.jpg in Resources */,
+				EA0ACD8A1DF863760054B3D4 /* Triceps02.jpg in Resources */,
+				EA0ACD391DF863760054B3D4 /* Pill-30.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0ACC641DF8599F0054B3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0ACCB21DF85D700054B3D4 /* FoodDetailsVC.m in Sources */,
+				EA0ACD9B1DF869CA0054B3D4 /* InputViewController.m in Sources */,
+				EA0ACC8D1DF85D3E0054B3D4 /* CountdownTimerVC.m in Sources */,
+				EA0ACCAF1DF85D700054B3D4 /* FoodData.m in Sources */,
+				EA0ACCC21DF85D7C0054B3D4 /* MuscleGroupsTableVC.m in Sources */,
+				EA9667671E0A8D2500323D1A /* Food.m in Sources */,
+				EA0ACCC01DF85D7C0054B3D4 /* MusleTableViewCell.m in Sources */,
+				EA0ACCC31DF85D7C0054B3D4 /* ExercisesTableVC.m in Sources */,
+				EA0ACCB11DF85D700054B3D4 /* FoodCell.m in Sources */,
+				EA0ACC701DF8599F0054B3D4 /* AppDelegate.m in Sources */,
+				EA96676D1E0D75ED00323D1A /* FoodSearchViewController.m in Sources */,
+				EA0ACCC41DF85D7C0054B3D4 /* ExerciseDetailsVC.m in Sources */,
+				EA0ACC971DF85D4C0054B3D4 /* BMICalculatorVC.m in Sources */,
+				EA0ACCBF1DF85D7C0054B3D4 /* ExerciseData.m in Sources */,
+				EA0ACC8E1DF85D3E0054B3D4 /* StopWatchVC.m in Sources */,
+				EA0ACCC11DF85D7C0054B3D4 /* ExerciseTableViewCell.m in Sources */,
+				EA0ACCB01DF85D700054B3D4 /* FoodTableVC.m in Sources */,
+				EA0ACC981DF85D4C0054B3D4 /* FatCalculatorVC.m in Sources */,
+				EA0ACD9C1DF869CA0054B3D4 /* CalculatedViewController.m in Sources */,
+				EA0ACC6D1DF8599F0054B3D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA0ACC791DF8599F0054B3D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0ACC7A1DF8599F0054B3D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0ACC7D1DF8599F0054B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0ACC7E1DF8599F0054B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0ACC801DF8599F0054B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FitLifePal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIS4350.FitLifePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA0ACC811DF8599F0054B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FitLifePal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIS4350.FitLifePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0ACC631DF8599F0054B3D4 /* Build configuration list for PBXProject "FitLifePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0ACC7D1DF8599F0054B3D4 /* Debug */,
+				EA0ACC7E1DF8599F0054B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0ACC7F1DF8599F0054B3D4 /* Build configuration list for PBXNativeTarget "FitLifePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0ACC801DF8599F0054B3D4 /* Debug */,
+				EA0ACC811DF8599F0054B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0ACC601DF8599F0054B3D4 /* Project object */;
+}
