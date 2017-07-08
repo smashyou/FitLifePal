@@ -27,28 +27,11 @@ int carbInt;
 int proteinInt;
 int fatInt;
 
--(void)viewDidLoad {
+-(void)viewDidLoad { 
     
-    [super viewDidLoad];
-    
+    [super viewDidLoad];  
     
 }
-
-
-
-/*
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if ([[segue identifier]isEqualToString:@"vc2"]) {
-        UINavigationController *navController = segue.destinationViewController;
-        
-        InputViewController *vc2 = (InputViewController*)navController.topViewController;
-        
-        [vc2 setDelegate:self];
-    }
-}
-*/
-
-
 
 -(IBAction)bulkCutSelection:(id)sender {
     bulkCutIndex = [sender selectedSegmentIndex];
@@ -66,7 +49,6 @@ int fatInt;
 }
 
 -(IBAction)calculateMacro:(id)sender {
-    
     
     if (bulkCutIndex == 0) {
         totalCal = ([_bmrLabel.text doubleValue]) + 500;
