@@ -19,16 +19,10 @@
 
 @implementation InputViewController
 
-
-
-
 double alf;
 double resultCal;
 NSInteger genderIndex;
 NSInteger metricIndex;
-
-
-
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
     return 1;
@@ -70,24 +64,12 @@ NSInteger metricIndex;
     }
 }
 
- 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.activity = @[@"Sedentary", @"1-3 days", @"3-5 days", @"6-7 days", @"Hardcore everyday"];
-    
-    
-    
-    
-    
+        
 }
-
-
-
-
-
-
 
 -(IBAction)genderSelection:(id)sender {
     
@@ -109,9 +91,7 @@ NSInteger metricIndex;
         wp = 2.2046 * wp;
         hi = 0.3937 * hi;
     }
-    
-    
-    
+        
     if (genderIndex == 0) {
         resultCal = alf * ((6.25 * wp) + (12.7*hi) - (6.76*agee) + 66);
     }
@@ -120,16 +100,12 @@ NSInteger metricIndex;
     }
     
     _resultDecimal = resultCal;
-  
-    
+     
     NSNumber *myDoubleNumber = [NSNumber numberWithDouble:_resultDecimal];
     
     self.resultCalLabel2.text = [myDoubleNumber stringValue];
     
 }
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
